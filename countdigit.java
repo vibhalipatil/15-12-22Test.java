@@ -6,12 +6,12 @@ public class Main {
     int count = 0, num ;
     Scanner sc=new Scanner(System.in)
      System.out.print("Enter a number"):
-    int num=sc.nextInt();
+    int num1=sc.nextInt();
     
       
 
-    while (num != 0) {
-      num /= 10;
+    while (num1 != 0) {
+      num1 /= 10;
       ++count;
     }
 
